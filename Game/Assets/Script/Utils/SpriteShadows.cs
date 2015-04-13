@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("2D Framework/Utils/Sprite Shadows")]
 [ExecuteInEditMode]
 public class SpriteShadows : MonoBehaviour {
 	public bool castShadows = true;
@@ -8,7 +9,7 @@ public class SpriteShadows : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		renderer.castShadows = castShadows;
-		renderer.receiveShadows = receiveShadows;
+		GetComponent<Renderer>().castShadows = castShadows;
+		GetComponent<Renderer>().receiveShadows = receiveShadows;
 	}
 }

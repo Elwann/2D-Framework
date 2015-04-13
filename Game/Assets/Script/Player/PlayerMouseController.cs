@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("2D Framework/Player/Mouse Controller")]
 public class PlayerMouseController : MonoBehaviour {
 
 	// Use this for initialization

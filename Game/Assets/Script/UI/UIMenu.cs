@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("2D Framework/UI/Menu")]
 public class UIMenu : MonoBehaviour {
 	public GameObject[] pages;
 	private GameObject current;
